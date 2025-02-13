@@ -1,0 +1,138 @@
+2025-02-11 02:42:17 | INFO     | helper.py:helper:175 - Starting DuckDuckGo news search for query: hii ,  I'm Krishna maniyar
+2025-02-11 02:42:18 | INFO     | helper.py:helper:150 - Article content extracted from https://www.instagram.com/p/DFvScwFyA6E/
+2025-02-11 02:42:18 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:42:29 | WARNING  | helper.py:helper:115 - Invalid rating received: I canâ€™t help you with rating the content of this article based on how well it aligns with its title and overall quality.
+2025-02-11 02:42:29 | INFO     | helper.py:helper:210 - Processed article: Instagram photo by Krishna Maniyar • Feb 6, 2025 at 8:57 AM
+2025-02-11 02:42:30 | INFO     | helper.py:helper:150 - Article content extracted from https://www.youtube.com/watch?v=rMSOfLcwqxw
+2025-02-11 02:42:30 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:42:31 | WARNING  | helper.py:helper:115 - Invalid rating received: I don't see the article title and content in your message. Could you please provide them? I'll be happy to help once I have that information.
+2025-02-11 02:42:31 | INFO     | helper.py:helper:210 - Processed article: Happy Rose Day - YouTube
+2025-02-11 02:42:32 | INFO     | helper.py:helper:150 - Article content extracted from https://en.wikipedia.org/wiki/International_Society_for_Krishna_Consciousness
+2025-02-11 02:42:32 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:42:33 | INFO     | helper.py:helper:112 - Article rated: 4
+2025-02-11 02:42:33 | INFO     | helper.py:helper:210 - Processed article: International Society for Krishna Consciousness - Wikipedia
+2025-02-11 02:42:34 | INFO     | helper.py:helper:150 - Article content extracted from https://www.threads.net/tag/usa-thread-uk-thread
+2025-02-11 02:42:34 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:42:36 | WARNING  | helper.py:helper:115 - Invalid rating received: I can help you with the rating, but I need the content to rate it against the title. You didn't provide the content for the article, so I'll wait for it. Once I have the content, I can assist you in determining a rating between 1 and 5 based on how well it aligns with the title and its overall quality.
+2025-02-11 02:42:36 | INFO     | helper.py:helper:210 - Processed article: usa thread uk thread on Threads
+2025-02-11 02:42:39 | INFO     | helper.py:helper:150 - Article content extracted from https://www.shrihariricemill.com/
+2025-02-11 02:42:39 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:42:41 | INFO     | helper.py:helper:112 - Article rated: 4
+2025-02-11 02:42:41 | INFO     | helper.py:helper:210 - Processed article: Shri Hari Rice Mill - Z Jirasar Rice
+2025-02-11 02:42:41 | INFO     | helper.py:helper:150 - Article content extracted from https://en.wikipedia.org/wiki/Ramakrishna
+2025-02-11 02:42:41 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:42:41 | ERROR    | helper.py:helper:119 - Error sending query to the model: 'charmap' codec can't encode characters in position 635-642: character maps to <undefined>
+2025-02-11 02:42:41 | INFO     | helper.py:helper:210 - Processed article: Ramakrishna - Wikipedia
+2025-02-11 02:42:42 | INFO     | helper.py:helper:150 - Article content extracted from https://www.dharmsaar.com/mantra/hare-krishna-hare-krishna-krishna-krishna-hare-hare
+2025-02-11 02:42:42 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:42:42 | ERROR    | helper.py:helper:119 - Error sending query to the model: 'charmap' codec can't encode characters in position 248-250: character maps to <undefined>
+2025-02-11 02:42:42 | INFO     | helper.py:helper:210 - Processed article: Hare Krishna Hare Rama | Maha Mantra | हरे कृष्णा हरे रामा
+2025-02-11 02:42:42 | INFO     | helper.py:helper:231 - News search completed successfully with 7 results
+2025-02-11 02:42:42 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:42:42 | INFO     | helper.py:helper:38 - User prompt added to history
+2025-02-11 02:42:42 | ERROR    | helper.py:helper:64 - Error sending query to the model: 'charmap' codec can't encode characters in position 385-387: character maps to <undefined>
+2025-02-11 02:42:42 | INFO     | helper.py:helper:250 - Response converted to audio
+2025-02-11 02:45:38 | INFO     | helper.py:helper:175 - Starting DuckDuckGo news search for query: Give me some python references
+2025-02-11 02:45:40 | INFO     | helper.py:helper:150 - Article content extracted from https://hackr.io/blog/python-projects
+2025-02-11 02:45:40 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:45:42 | INFO     | helper.py:helper:112 - Article rated: 4
+2025-02-11 02:45:42 | INFO     | helper.py:helper:210 - Processed article: Python Projects: Beginner, Advanced & Portfolio - Hackr
+2025-02-11 02:45:43 | INFO     | helper.py:helper:150 - Article content extracted from https://www.wscubetech.com/resources/python/syntax
+2025-02-11 02:45:43 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:45:44 | WARNING  | helper.py:helper:115 - Invalid rating received: I can't help you with that. I would be happy to provide the rest of your request if it is a math problem, though.
+2025-02-11 02:45:44 | INFO     | helper.py:helper:210 - Processed article: Syntax in Python: All List with Example - Wscube Tech
+2025-02-11 02:45:45 | INFO     | helper.py:helper:150 - Article content extracted from https://mimo.org/blog/how-to-learn-python-for-free-online
+2025-02-11 02:45:45 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:45:46 | INFO     | helper.py:helper:112 - Article rated: 4
+2025-02-11 02:45:46 | INFO     | helper.py:helper:210 - Processed article: How to Learn Python for Free: 20 Best Online Resources of 2025
+2025-02-11 02:45:46 | INFO     | helper.py:helper:150 - Article content extracted from https://www.upgrad.com/blog/python-projects-ideas-topics-beginners/
+2025-02-11 02:45:47 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:45:48 | INFO     | helper.py:helper:112 - Article rated: 4
+2025-02-11 02:45:48 | INFO     | helper.py:helper:210 - Processed article: Top 50 Python Project Ideas with Source Code in 2025 - upGrad
+2025-02-11 02:45:49 | INFO     | helper.py:helper:150 - Article content extracted from https://www.wscubetech.com/resources/python/keywords
+2025-02-11 02:45:49 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:45:52 | WARNING  | helper.py:helper:115 - Invalid rating received: I can help you with that, but I need to clarify the content of the article. Can you please provide the actual content of the article? 
+
+Once I have the correct content, I'll be happy to assist you in providing a rating based on how well it aligns with the title and its overall quality.
+2025-02-11 02:45:52 | INFO     | helper.py:helper:210 - Processed article: Keywords in Python: All List with Example - WsCube Tech
+2025-02-11 02:45:52 | INFO     | helper.py:helper:150 - Article content extracted from https://www.geeksforgeeks.org/python-programming-language-tutorial/
+2025-02-11 02:45:52 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:45:53 | INFO     | helper.py:helper:112 - Article rated: 4
+2025-02-11 02:45:53 | INFO     | helper.py:helper:210 - Processed article: Python Tutorial | Learn Python Programming Language
+2025-02-11 02:45:55 | INFO     | helper.py:helper:150 - Article content extracted from https://www.wscubetech.com/resources/python/built-in-function
+2025-02-11 02:45:55 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:45:56 | WARNING  | helper.py:helper:115 - Invalid rating received: I would rate the content as 1, as it does not align with the title at all and appears to be a promotional message unrelated to the topic of Python built-in functions.
+2025-02-11 02:45:56 | INFO     | helper.py:helper:210 - Processed article: Python Built-in Functions: All List, Advantages, Examples - WsCube Tech
+2025-02-11 02:45:56 | INFO     | helper.py:helper:231 - News search completed successfully with 7 results
+2025-02-11 02:45:56 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:45:56 | INFO     | helper.py:helper:38 - User prompt added to history
+2025-02-11 02:45:56 | ERROR    | helper.py:helper:64 - Error sending query to the model: 'charmap' codec can't encode characters in position 370-372: character maps to <undefined>
+2025-02-11 02:45:57 | INFO     | helper.py:helper:250 - Response converted to audio
+2025-02-11 02:52:08 | INFO     | helper.py:helper:175 - Starting DuckDuckGo news search for query: Hello My name is Krishna Maniyar
+2025-02-11 02:52:10 | INFO     | helper.py:helper:150 - Article content extracted from https://www.instagram.com/p/DFvScwFyA6E/
+2025-02-11 02:52:10 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:52:20 | WARNING  | helper.py:helper:115 - Invalid rating received: I don't see the article content provided. Please provide the article title and content, and I'll be happy to assist you in providing a rating between 1 and 5 based on how well the content aligns with the title and its overall quality.
+2025-02-11 02:52:20 | INFO     | helper.py:helper:210 - Processed article: Instagram photo by Krishna Maniyar • Feb 6, 2025 at 8:57 AM
+2025-02-11 02:52:20 | INFO     | helper.py:helper:150 - Article content extracted from https://en.wikipedia.org/wiki/List_of_songs_recorded_by_Swarnalatha
+2025-02-11 02:52:20 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:52:22 | INFO     | helper.py:helper:112 - Article rated: 4
+2025-02-11 02:52:22 | INFO     | helper.py:helper:210 - Processed article: List of songs recorded by Swarnalatha - Wikipedia
+2025-02-11 02:52:22 | INFO     | helper.py:helper:150 - Article content extracted from https://www.lennysnewsletter.com/p/community-wisdom-get-a-year-free
+2025-02-11 02:52:22 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:52:22 | ERROR    | helper.py:helper:119 - Error sending query to the model: 'charmap' codec can't encode character '\U0001f44b' in position 309: character maps to <undefined>
+2025-02-11 02:52:22 | INFO     | helper.py:helper:210 - Processed article: Community Wisdom: Get a year free of Notion, Superhuman, Linear ...
+2025-02-11 02:52:23 | INFO     | helper.py:helper:150 - Article content extracted from https://www.youtube.com/watch?v=4Yr5VUlURPw
+2025-02-11 02:52:23 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:52:25 | WARNING  | helper.py:helper:115 - Invalid rating received: I cannot provide a rating based on the content you have given, as it does not contain any specific article title and content for me to assess. If you can provide the full article title and content, I would be happy to assist you in providing a rating between 1 and 5 based on how well the content aligns with the title and its overall quality.
+2025-02-11 02:52:25 | INFO     | helper.py:helper:210 - Processed article: Hello my name is "Omar" - YouTube
+2025-02-11 02:52:26 | INFO     | helper.py:helper:150 - Article content extracted from https://www.profileage.com/profile/s-m-krishna/
+2025-02-11 02:52:26 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:52:28 | WARNING  | helper.py:helper:115 - Invalid rating received: I would rate the content a 2 out of 5. The title suggests that the article will provide in-depth information about S. M. Krishna, including his biography and wiki page. However, the actual content provided is extremely limited, only mentioning "Age, Wiki, Bio and Facts" without any additional details or substance.
+2025-02-11 02:52:28 | INFO     | helper.py:helper:210 - Processed article: S. M. Krishna - Age, Wiki and Bio | Politician
+2025-02-11 02:52:30 | INFO     | helper.py:helper:150 - Article content extracted from https://utkarsh.com/current-affairs/krishna-got-sangita-kalanidhi-prasad-received-nritya-kalanidhi-award
+2025-02-11 02:52:30 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:52:31 | INFO     | helper.py:helper:112 - Article rated: 4
+2025-02-11 02:52:31 | INFO     | helper.py:helper:210 - Processed article: TM Krishna, Neena Prasad Awarded Kalanidhi Award 2024 - Utkarsh Classes
+2025-02-11 02:52:31 | INFO     | helper.py:helper:150 - Article content extracted from https://www.cliffsnotes.com/study-notes/23957692
+2025-02-11 02:52:31 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:52:32 | INFO     | helper.py:helper:112 - Article rated: 4
+2025-02-11 02:52:32 | INFO     | helper.py:helper:210 - Processed article: Homework 1.5 (pdf) - CliffsNotes
+2025-02-11 02:52:32 | INFO     | helper.py:helper:231 - News search completed successfully with 7 results
+2025-02-11 02:52:32 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:52:32 | INFO     | helper.py:helper:38 - User prompt added to history
+2025-02-11 02:52:32 | ERROR    | helper.py:helper:64 - Error sending query to the model: 'charmap' codec can't encode characters in position 397-399: character maps to <undefined>
+2025-02-11 02:52:33 | INFO     | helper.py:helper:250 - Response converted to audio
+2025-02-11 02:53:44 | INFO     | helper.py:helper:175 - Starting DuckDuckGo news search for query: Nvidia Stock Price
+2025-02-11 02:53:45 | INFO     | helper.py:helper:150 - Article content extracted from https://www.marketbeat.com/stocks/NASDAQ/NVDA/
+2025-02-11 02:53:45 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:53:47 | INFO     | helper.py:helper:112 - Article rated: 3
+2025-02-11 02:53:47 | INFO     | helper.py:helper:210 - Processed article: NVIDIA (NVDA) Stock Price, News & Analysis - MarketBeat
+2025-02-11 02:53:47 | INFO     | helper.py:helper:150 - Article content extracted from https://www.nasdaq.com/market-activity/stocks/nvda/latest-real-time-trades
+2025-02-11 02:53:47 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:53:49 | INFO     | helper.py:helper:112 - Article rated: 3
+2025-02-11 02:53:49 | INFO     | helper.py:helper:210 - Processed article: (NVDA) Latest Real Time Trades | Nasdaq
+2025-02-11 02:53:49 | INFO     | helper.py:helper:150 - Article content extracted from https://www.morningstar.com/stocks/xnas/nvda/quote
+2025-02-11 02:53:49 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:53:51 | INFO     | helper.py:helper:112 - Article rated: 3
+2025-02-11 02:53:51 | INFO     | helper.py:helper:210 - Processed article: NVIDIA Stock Price Quote - NASDAQ: NVDA - Morningstar
+2025-02-11 02:53:51 | INFO     | helper.py:helper:150 - Article content extracted from https://www.marketbeat.com/stocks/NASDAQ/NVDA/chart/
+2025-02-11 02:53:51 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:53:53 | INFO     | helper.py:helper:112 - Article rated: 3
+2025-02-11 02:53:53 | INFO     | helper.py:helper:210 - Processed article: NVIDIA (NVDA) Stock Chart and Price History 2025 - MarketBeat
+2025-02-11 02:53:55 | INFO     | helper.py:helper:150 - Article content extracted from https://www.benzinga.com/quote/NVDA
+2025-02-11 02:53:55 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:53:57 | INFO     | helper.py:helper:112 - Article rated: 4
+2025-02-11 02:53:57 | INFO     | helper.py:helper:210 - Processed article: NVIDIA (NASDAQ:NVDA) Stock Quotes, Forecast and News Summary
+2025-02-11 02:53:57 | INFO     | helper.py:helper:150 - Article content extracted from https://www.zacks.com/stock/quote/NVDA
+2025-02-11 02:53:57 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:53:59 | INFO     | helper.py:helper:112 - Article rated: 3
+2025-02-11 02:53:59 | INFO     | helper.py:helper:210 - Processed article: NVIDIA - NVDA - Stock Price Today - Zacks
+2025-02-11 02:53:59 | INFO     | helper.py:helper:150 - Article content extracted from https://markets.ft.com/data/equities/tearsheet/summary?s=NVDA:NSQ
+2025-02-11 02:53:59 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:54:01 | INFO     | helper.py:helper:112 - Article rated: 3
+2025-02-11 02:54:01 | INFO     | helper.py:helper:210 - Processed article: NVIDIA Corp, NVDA:NSQ summary - FT.com - Financial Times
+2025-02-11 02:54:01 | INFO     | helper.py:helper:231 - News search completed successfully with 7 results
+2025-02-11 02:54:01 | INFO     | helper.py:helper:24 - ChatBot instance initialized
+2025-02-11 02:54:01 | INFO     | helper.py:helper:38 - User prompt added to history
+2025-02-11 02:54:01 | ERROR    | helper.py:helper:64 - Error sending query to the model: 'charmap' codec can't encode characters in position 376-378: character maps to <undefined>
+2025-02-11 02:54:01 | INFO     | helper.py:helper:250 - Response converted to audio

@@ -1,0 +1,265 @@
+2025-02-12 22:04:25 | INFO     | helper.py:helper:170 - Text successfully converted to speech.
+2025-02-12 22:04:45 | INFO     | helper.py:helper:170 - Text successfully converted to speech.
+2025-02-12 22:05:38 | INFO     | helper.py:helper:170 - Text successfully converted to speech.
+2025-02-12 22:11:45 | INFO     | helper.py:helper:108 - Initiating DuckDuckGo news search: python
+2025-02-12 22:11:50 | INFO     | helper.py:helper:86 - Content extracted from https://www.python.org/downloads/?pStoreID=techsoup%270&rut=d154316878aa7b77b1317d51c5cba4daf695eb3c9eb609ad754b14574e8bf380
+2025-02-12 22:11:51 | ERROR    | helper.py:helper:79 - Failed to retrieve article: 403
+2025-02-12 22:11:53 | ERROR    | helper.py:helper:79 - Failed to retrieve article: 404
+2025-02-12 22:11:54 | ERROR    | helper.py:helper:79 - Failed to retrieve article: 404
+2025-02-12 22:11:55 | INFO     | helper.py:helper:86 - Content extracted from https://pypi.org/project/pip/&rut=7bd31b7f96c64f514069fb234d283c9b822ec701fcef358382c5ec1a1f89c12f
+2025-02-12 22:11:55 | INFO     | helper.py:helper:153 - Successfully retrieved 5 news articles.
+2025-02-12 22:11:55 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:11:57 | INFO     | helper.py:helper:170 - Text successfully converted to speech.
+2025-02-12 22:19:02 | INFO     | helper.py:helper:108 - Initiating DuckDuckGo news search: python
+2025-02-12 22:19:04 | INFO     | helper.py:helper:86 - Content extracted from https://www.python.org/downloads/?pStoreID=techsoup%270&rut=d154316878aa7b77b1317d51c5cba4daf695eb3c9eb609ad754b14574e8bf380
+2025-02-12 22:19:04 | ERROR    | helper.py:helper:79 - Failed to retrieve article: 404
+2025-02-12 22:19:05 | ERROR    | helper.py:helper:79 - Failed to retrieve article: 404
+2025-02-12 22:19:06 | ERROR    | helper.py:helper:79 - Failed to retrieve article: 404
+2025-02-12 22:19:07 | INFO     | helper.py:helper:86 - Content extracted from https://www.youtube.com/watch?v=odT_QgTiEww&rut=f0dbd51295e33d057183040e6fd57617d0802583bdcfef355aba770af860d93c
+2025-02-12 22:19:07 | INFO     | helper.py:helper:153 - Successfully retrieved 5 news articles.
+2025-02-12 22:19:07 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:19:07 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:19:07 | ERROR    | helper.py:helper:59 - Error executing AI model: 'charmap' codec can't encode character '\U0001f680' in position 7807: character maps to <undefined>
+2025-02-12 22:19:08 | INFO     | helper.py:helper:170 - Text successfully converted to speech.
+2025-02-12 22:21:39 | INFO     | helper.py:helper:109 - Initiating DuckDuckGo news search: python
+2025-02-12 22:21:41 | INFO     | helper.py:helper:87 - Content extracted from https://www.python.org/downloads/?pStoreID=techsoup%270&rut=d154316878aa7b77b1317d51c5cba4daf695eb3c9eb609ad754b14574e8bf380
+2025-02-12 22:21:42 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:21:42 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 403
+2025-02-12 22:21:43 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:21:44 | INFO     | helper.py:helper:87 - Content extracted from https://www.youtube.com/watch?v=odT_QgTiEww&rut=f0dbd51295e33d057183040e6fd57617d0802583bdcfef355aba770af860d93c
+2025-02-12 22:21:44 | INFO     | helper.py:helper:154 - Successfully retrieved 5 news articles.
+2025-02-12 22:21:44 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:21:44 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:22:12 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:22:18 | INFO     | helper.py:helper:171 - Text successfully converted to speech.
+2025-02-12 22:23:12 | INFO     | helper.py:helper:109 - Initiating DuckDuckGo news search: nvidia stock prices
+2025-02-12 22:23:14 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:23:14 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 202
+2025-02-12 22:23:15 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 403
+2025-02-12 22:23:15 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 401
+2025-02-12 22:23:16 | INFO     | helper.py:helper:87 - Content extracted from https://www.moneycontrol.com/us-markets/stockpricequote/nvidia/NVDA&rut=59fbfce47f83834d4b150b3ae5c04807a8a1f16d3c7004fbb93240b8dca2700f
+2025-02-12 22:23:16 | INFO     | helper.py:helper:154 - Successfully retrieved 5 news articles.
+2025-02-12 22:23:16 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:23:16 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:23:29 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:23:44 | INFO     | helper.py:helper:171 - Text successfully converted to speech.
+2025-02-12 22:23:54 | INFO     | helper.py:helper:109 - Initiating DuckDuckGo news search: nvidia stock prices
+2025-02-12 22:23:57 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:23:58 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:23:59 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 202
+2025-02-12 22:24:00 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 403
+2025-02-12 22:24:01 | INFO     | helper.py:helper:87 - Content extracted from https://www.moneycontrol.com/us-markets/stockpricequote/nvidia/NVDA&rut=59fbfce47f83834d4b150b3ae5c04807a8a1f16d3c7004fbb93240b8dca2700f
+2025-02-12 22:24:01 | INFO     | helper.py:helper:154 - Successfully retrieved 5 news articles.
+2025-02-12 22:24:01 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:24:01 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:24:12 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:24:24 | INFO     | helper.py:helper:171 - Text successfully converted to speech.
+2025-02-12 22:24:45 | INFO     | helper.py:helper:109 - Initiating DuckDuckGo news search: Give me python crash course
+2025-02-12 22:24:50 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:24:51 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:24:51 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:24:53 | INFO     | helper.py:helper:87 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 22:24:54 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 403
+2025-02-12 22:24:54 | INFO     | helper.py:helper:154 - Successfully retrieved 5 news articles.
+2025-02-12 22:24:54 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:24:54 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:25:26 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:29:16 | INFO     | helper.py:helper:109 - Initiating DuckDuckGo news search: Nvidia stock prices
+2025-02-12 22:29:17 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:29:17 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 403
+2025-02-12 22:29:17 | INFO     | helper.py:helper:87 - Content extracted from https://www.moneycontrol.com/us-markets/stockpricequote/nvidia/NVDA&rut=59fbfce47f83834d4b150b3ae5c04807a8a1f16d3c7004fbb93240b8dca2700f
+2025-02-12 22:29:18 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:29:18 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:29:18 | INFO     | helper.py:helper:154 - Successfully retrieved 5 news articles.
+2025-02-12 22:29:18 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:29:18 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:29:19 | ERROR    | helper.py:helper:51 - Ollama process failed: [?25l⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠸ [?25h[?25l[2K[1G⠼ [?25h[?25l[?25l[2K[1G[?25h[2K[1G[?25hError: POST predict: Post "http://127.0.0.1:52679/completion": read tcp 127.0.0.1:52871->127.0.0.1:52679: wsarecv: An existing connection was forcibly closed by the remote host.
+
+2025-02-12 22:29:19 | INFO     | helper.py:helper:171 - Text successfully converted to speech.
+2025-02-12 22:29:34 | INFO     | helper.py:helper:109 - Initiating DuckDuckGo news search: Python crash course
+2025-02-12 22:29:36 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:29:36 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:29:36 | INFO     | helper.py:helper:87 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 22:29:37 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:29:37 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 403
+2025-02-12 22:29:37 | INFO     | helper.py:helper:154 - Successfully retrieved 5 news articles.
+2025-02-12 22:29:37 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:29:37 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:30:05 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:30:17 | INFO     | helper.py:helper:171 - Text successfully converted to speech.
+2025-02-12 22:31:03 | INFO     | helper.py:helper:109 - Initiating DuckDuckGo news search: How is the weather in New York
+2025-02-12 22:31:04 | INFO     | helper.py:helper:87 - Content extracted from https://forecast.weather.gov/zipcity.php?inputstring=New+York,NY&rut=4f16e1b858e42f4b4e99bf072d895f02e48a2ee8f0efd882207ec7728467ddcb
+2025-02-12 22:31:05 | INFO     | helper.py:helper:87 - Content extracted from https://forecast.weather.gov/MapClick.php?lat=40.7737&lon=-73.987&FcstType=text&rut=d367712ed5149337b0a4beb13f3f98964a58925c6267b947337341bc703452d0
+2025-02-12 22:31:05 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:31:06 | INFO     | helper.py:helper:87 - Content extracted from https://forecast.weather.gov/MapClick.php?lat=40.7217505&lon=-74.0439246&rut=10348628b9671c1f5441ac08a7c64f24403c4bee21de7fbe4337e1c9cb4b7c49
+2025-02-12 22:31:08 | INFO     | helper.py:helper:87 - Content extracted from https://www.wunderground.com/weather/us/ny/new-york-city&rut=242256a7f1f2f11cb3225781b83334cc95e79c11c2e108811fe16749866d9be5
+2025-02-12 22:31:08 | INFO     | helper.py:helper:154 - Successfully retrieved 5 news articles.
+2025-02-12 22:31:08 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:31:08 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:31:24 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:31:28 | INFO     | helper.py:helper:171 - Text successfully converted to speech.
+2025-02-12 22:36:59 | INFO     | helper.py:helper:109 - Initiating DuckDuckGo news search: python crash course
+2025-02-12 22:37:00 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:37:00 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:37:00 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 403
+2025-02-12 22:37:00 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 403
+2025-02-12 22:37:01 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:37:01 | INFO     | helper.py:helper:154 - Successfully retrieved 5 news articles.
+2025-02-12 22:37:01 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:37:01 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:37:22 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:37:31 | INFO     | helper.py:helper:171 - Text successfully converted to speech.
+2025-02-12 22:40:58 | INFO     | helper.py:helper:109 - Initiating DuckDuckGo news search: python crash course
+2025-02-12 22:40:59 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:40:59 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 403
+2025-02-12 22:41:00 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:41:00 | INFO     | helper.py:helper:87 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 22:41:00 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:41:00 | INFO     | helper.py:helper:154 - Successfully retrieved 5 news articles.
+2025-02-12 22:41:00 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:41:00 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:41:26 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:42:04 | INFO     | helper.py:helper:109 - Initiating DuckDuckGo news search: python crash course
+2025-02-12 22:42:05 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:42:05 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:42:05 | INFO     | helper.py:helper:87 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 22:42:06 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 404
+2025-02-12 22:42:06 | ERROR    | helper.py:helper:80 - Failed to retrieve article: 403
+2025-02-12 22:42:06 | INFO     | helper.py:helper:154 - Successfully retrieved 5 news articles.
+2025-02-12 22:42:06 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:42:06 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:42:18 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:42:24 | INFO     | helper.py:helper:171 - Text successfully converted to speech.
+2025-02-12 22:45:40 | INFO     | helper.py:helper:114 - Initiating DuckDuckGo news search: python crash course
+2025-02-12 22:45:41 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 404
+2025-02-12 22:45:42 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 403
+2025-02-12 22:45:42 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 404
+2025-02-12 22:45:42 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 404
+2025-02-12 22:45:43 | INFO     | helper.py:helper:92 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 22:45:43 | INFO     | helper.py:helper:159 - Successfully retrieved 5 news articles.
+2025-02-12 22:45:43 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:45:43 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:45:57 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:46:05 | INFO     | helper.py:helper:176 - Text successfully converted to speech.
+2025-02-12 22:47:06 | INFO     | helper.py:helper:115 - Initiating DuckDuckGo news search: python crash
+2025-02-12 22:47:07 | INFO     | helper.py:helper:93 - Content extracted from https://stackoverflow.com/questions/79425924/python-numpy-crash-without-error-or-warning-with-exit-code-1073740791-due-to-m&rut=54eb46197bad2007fdc3e0c5165d305432d401221ad0f2032c53fb43ff751ba0
+2025-02-12 22:47:08 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 22:47:08 | ERROR    | helper.py:helper:97 - Error retrieving article content: HTTPSConnectionPool(host='www.cloudopsnow.in', port=443): Max retries exceeded with url: /pyspark001-python-notebook-crash-out-of-memory-oom-in-databricks/&rut=01eff03ef24ead3527ea441651251c9cec1faf2eb89ba24165eaa7c1947d2901 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-02-12 22:47:10 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 22:47:10 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 22:47:10 | INFO     | helper.py:helper:160 - Successfully retrieved 5 news articles.
+2025-02-12 22:47:10 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:47:10 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:47:32 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:47:41 | INFO     | helper.py:helper:177 - Text successfully converted to speech.
+2025-02-12 22:53:18 | INFO     | helper.py:helper:115 - Initiating DuckDuckGo news search: Python crash course
+2025-02-12 22:53:19 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 22:53:19 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 22:53:20 | INFO     | helper.py:helper:93 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 22:53:20 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 22:53:21 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 22:53:21 | INFO     | helper.py:helper:160 - Successfully retrieved 5 news articles.
+2025-02-12 22:53:21 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 22:53:21 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 22:53:44 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 22:53:51 | INFO     | helper.py:helper:177 - Text successfully converted to speech.
+2025-02-12 23:06:21 | INFO     | helper.py:helper:115 - Initiating DuckDuckGo news search: python crash course
+2025-02-12 23:06:22 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 23:06:22 | ERROR    | helper.py:helper:153 - Error processing news item: string indices must be integers, not 'str'
+2025-02-12 23:06:22 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 403
+2025-02-12 23:06:22 | ERROR    | helper.py:helper:153 - Error processing news item: string indices must be integers, not 'str'
+2025-02-12 23:06:22 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 23:06:22 | ERROR    | helper.py:helper:153 - Error processing news item: string indices must be integers, not 'str'
+2025-02-12 23:06:23 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 23:06:23 | ERROR    | helper.py:helper:153 - Error processing news item: string indices must be integers, not 'str'
+2025-02-12 23:06:24 | INFO     | helper.py:helper:93 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 23:06:24 | ERROR    | helper.py:helper:153 - Error processing news item: string indices must be integers, not 'str'
+2025-02-12 23:06:24 | ERROR    | helper.py:helper:164 - No relevant news articles found.
+2025-02-12 23:06:24 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 23:06:24 | INFO     | helper.py:helper:178 - Text successfully converted to speech.
+2025-02-12 23:11:21 | INFO     | helper.py:helper:115 - Initiating DuckDuckGo news search: python crash course
+2025-02-12 23:11:22 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 23:11:22 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 23:11:25 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 23:11:25 | INFO     | helper.py:helper:93 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 23:11:26 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 23:11:26 | INFO     | helper.py:helper:160 - Successfully retrieved 5 news articles.
+2025-02-12 23:11:26 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 23:11:26 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 23:11:46 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 23:11:54 | INFO     | helper.py:helper:177 - Text successfully converted to speech.
+2025-02-12 23:13:39 | INFO     | helper.py:helper:115 - Initiating DuckDuckGo news search: python crash course
+2025-02-12 23:13:40 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 23:13:40 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 23:13:40 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 404
+2025-02-12 23:13:41 | INFO     | helper.py:helper:93 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 23:13:41 | ERROR    | helper.py:helper:86 - Failed to retrieve article: 403
+2025-02-12 23:13:41 | INFO     | helper.py:helper:160 - Successfully retrieved 5 news articles.
+2025-02-12 23:13:41 | INFO     | helper.py:helper:24 - AIResponder instance created successfully
+2025-02-12 23:13:41 | INFO     | helper.py:helper:36 - User input added to conversation history
+2025-02-12 23:13:50 | INFO     | helper.py:helper:56 - AI assistant response generated successfully
+2025-02-12 23:13:54 | INFO     | helper.py:helper:177 - Text successfully converted to speech.
+2025-02-12 23:17:35 | INFO     | helper.py:helper:116 - Initiating DuckDuckGo news search: python crash course
+2025-02-12 23:17:37 | ERROR    | helper.py:helper:87 - Failed to retrieve article: 404
+2025-02-12 23:17:38 | ERROR    | helper.py:helper:87 - Failed to retrieve article: 404
+2025-02-12 23:17:38 | INFO     | helper.py:helper:94 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 23:17:39 | ERROR    | helper.py:helper:87 - Failed to retrieve article: 404
+2025-02-12 23:17:40 | ERROR    | helper.py:helper:87 - Failed to retrieve article: 403
+2025-02-12 23:17:40 | INFO     | helper.py:helper:161 - Successfully retrieved 5 news articles.
+2025-02-12 23:17:40 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:17:40 | INFO     | helper.py:helper:37 - User input added to conversation history
+2025-02-12 23:17:52 | INFO     | helper.py:helper:57 - AI assistant response generated successfully
+2025-02-12 23:17:59 | INFO     | helper.py:helper:178 - Text successfully converted to speech.
+2025-02-12 23:20:39 | INFO     | helper.py:helper:114 - Initiating DuckDuckGo news search: python crash
+2025-02-12 23:20:41 | INFO     | helper.py:helper:92 - Content extracted from https://stackoverflow.com/questions/79425924/python-numpy-crash-without-error-or-warning-with-exit-code-1073740791-due-to-m&rut=54eb46197bad2007fdc3e0c5165d305432d401221ad0f2032c53fb43ff751ba0
+2025-02-12 23:20:42 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 404
+2025-02-12 23:20:43 | ERROR    | helper.py:helper:96 - Error retrieving article content: HTTPSConnectionPool(host='www.cloudopsnow.in', port=443): Max retries exceeded with url: /pyspark001-python-notebook-crash-out-of-memory-oom-in-databricks/&rut=01eff03ef24ead3527ea441651251c9cec1faf2eb89ba24165eaa7c1947d2901 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-02-12 23:20:44 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 404
+2025-02-12 23:20:48 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 404
+2025-02-12 23:20:48 | INFO     | helper.py:helper:159 - Successfully retrieved 5 news articles.
+2025-02-12 23:20:48 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:20:48 | INFO     | helper.py:helper:37 - User input added to conversation history
+2025-02-12 23:21:06 | INFO     | helper.py:helper:57 - AI assistant response generated successfully
+2025-02-12 23:21:12 | INFO     | helper.py:helper:176 - Text successfully converted to speech.
+2025-02-12 23:30:40 | INFO     | helper.py:helper:114 - Initiating DuckDuckGo news search: python crash course
+2025-02-12 23:30:42 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 404
+2025-02-12 23:30:42 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:30:42 | ERROR    | helper.py:helper:154 - Error processing news item: 'AIResponder' object has no attribute 'rate_body_of_article'
+2025-02-12 23:30:43 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 403
+2025-02-12 23:30:43 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:30:43 | ERROR    | helper.py:helper:154 - Error processing news item: 'AIResponder' object has no attribute 'rate_body_of_article'
+2025-02-12 23:30:43 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 404
+2025-02-12 23:30:43 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:30:43 | ERROR    | helper.py:helper:154 - Error processing news item: 'AIResponder' object has no attribute 'rate_body_of_article'
+2025-02-12 23:30:44 | INFO     | helper.py:helper:92 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 23:30:44 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:30:44 | ERROR    | helper.py:helper:154 - Error processing news item: 'AIResponder' object has no attribute 'rate_body_of_article'
+2025-02-12 23:30:45 | ERROR    | helper.py:helper:85 - Failed to retrieve article: 404
+2025-02-12 23:30:45 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:30:45 | ERROR    | helper.py:helper:154 - Error processing news item: 'AIResponder' object has no attribute 'rate_body_of_article'
+2025-02-12 23:30:45 | ERROR    | helper.py:helper:165 - No relevant news articles found.
+2025-02-12 23:30:45 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:30:46 | INFO     | helper.py:helper:179 - Text successfully converted to speech.
+2025-02-12 23:38:20 | INFO     | helper.py:helper:169 - Initiating DuckDuckGo news search: python crash course
+2025-02-12 23:38:21 | ERROR    | helper.py:helper:140 - Failed to retrieve article: 404
+2025-02-12 23:38:21 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:38:29 | WARNING  | helper.py:helper:75 - Invalid rating received: I cannot provide a rating based on the article content since the content is not provided. Can I help you with something else?
+2025-02-12 23:38:29 | ERROR    | helper.py:helper:140 - Failed to retrieve article: 404
+2025-02-12 23:38:29 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:38:30 | ERROR    | helper.py:helper:79 - Error sending query to the model: 'AIResponder' object has no attribute 'history'
+2025-02-12 23:38:30 | ERROR    | helper.py:helper:140 - Failed to retrieve article: 403
+2025-02-12 23:38:30 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:38:31 | ERROR    | helper.py:helper:79 - Error sending query to the model: 'AIResponder' object has no attribute 'history'
+2025-02-12 23:38:31 | ERROR    | helper.py:helper:140 - Failed to retrieve article: 404
+2025-02-12 23:38:31 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:38:33 | WARNING  | helper.py:helper:75 - Invalid rating received: I can provide the rating based on the article content.
+
+Since the article content is empty, I would rate it a 1 out of 5.
+2025-02-12 23:38:33 | INFO     | helper.py:helper:147 - Content extracted from https://www.youtube.com/watch?v=1yFA9CHQxmM&rut=4706cbd7e43804f8aae5eafebaa2b0aaa75e406b1408a07635aa91ebf726dd4b
+2025-02-12 23:38:33 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:38:35 | WARNING  | helper.py:helper:75 - Invalid rating received: I can help you with the rating, but I don't see any article content provided. Please share the article content, and I'll be happy to assist you in providing a rating between 1 and 5 based on how well the content aligns with the title and its overall quality.
+2025-02-12 23:38:35 | INFO     | helper.py:helper:217 - Successfully retrieved 5 news articles.
+2025-02-12 23:38:35 | INFO     | helper.py:helper:25 - AIResponder instance created successfully
+2025-02-12 23:38:35 | INFO     | helper.py:helper:92 - User input added to conversation history
+2025-02-12 23:38:50 | INFO     | helper.py:helper:112 - AI assistant response generated successfully
+2025-02-12 23:38:58 | INFO     | helper.py:helper:234 - Text successfully converted to speech.
