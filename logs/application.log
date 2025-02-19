@@ -1,34 +1,49 @@
-2025-02-13 00:24:39 | INFO     | helper:fetch_news_data:171 - 
-2025-02-13 00:24:41 | INFO     | helper:extract_article_content:147 - 
-2025-02-13 00:24:41 | INFO     | helper:__init__:24 - 
-2025-02-13 00:24:55 | WARNING  | helper:evaluate_article_quality:112 - 
-2025-02-13 00:24:55 | INFO     | helper:process_single_article:206 - 
-2025-02-13 00:24:55 | INFO     | helper:extract_article_content:147 - 
-2025-02-13 00:24:55 | INFO     | helper:__init__:24 - 
-2025-02-13 00:25:01 | WARNING  | helper:evaluate_article_quality:112 - 
-2025-02-13 00:25:01 | INFO     | helper:process_single_article:206 - 
-2025-02-13 00:25:02 | INFO     | helper:extract_article_content:147 - 
-2025-02-13 00:25:02 | INFO     | helper:__init__:24 - 
-2025-02-13 00:25:04 | WARNING  | helper:evaluate_article_quality:112 - 
-2025-02-13 00:25:04 | INFO     | helper:process_single_article:206 - 
-2025-02-13 00:25:04 | INFO     | helper:extract_article_content:147 - 
-2025-02-13 00:25:04 | INFO     | helper:__init__:24 - 
-2025-02-13 00:25:09 | WARNING  | helper:evaluate_article_quality:112 - 
-2025-02-13 00:25:09 | INFO     | helper:process_single_article:206 - 
-2025-02-13 00:25:10 | ERROR    | helper:extract_article_content:139 - 
-2025-02-13 00:25:10 | INFO     | helper:__init__:24 - 
-2025-02-13 00:25:12 | WARNING  | helper:evaluate_article_quality:112 - 
-2025-02-13 00:25:12 | INFO     | helper:process_single_article:206 - 
-2025-02-13 00:25:15 | INFO     | helper:extract_article_content:147 - 
-2025-02-13 00:25:15 | INFO     | helper:__init__:24 - 
-2025-02-13 00:25:20 | WARNING  | helper:evaluate_article_quality:112 - 
-2025-02-13 00:25:20 | INFO     | helper:process_single_article:206 - 
-2025-02-13 00:25:23 | INFO     | helper:extract_article_content:147 - 
-2025-02-13 00:25:23 | INFO     | helper:__init__:24 - 
-2025-02-13 00:25:28 | WARNING  | helper:evaluate_article_quality:112 - 
-2025-02-13 00:25:28 | INFO     | helper:process_single_article:206 - 
-2025-02-13 00:25:28 | INFO     | helper:fetch_news_data:227 - 
-2025-02-13 00:25:28 | INFO     | helper:__init__:24 - 
-2025-02-13 00:25:28 | INFO     | helper:generate_response:37 - 
-2025-02-13 00:25:28 | ERROR    | helper:generate_response:62 - 
-2025-02-13 00:25:28 | INFO     | helper:text_to_speech:246 - 
+2025-02-18 20:23:26 | INFO     | helper:fetch_news_data:169 - Initiating news search for: python course
+2025-02-18 20:23:28 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:23:51 | WARNING  | helper:evaluate_article_quality:99 - Invalid rating received: I'd rate this article a 4.
+
+Accuracy, clarity, and relevance: 4
+The article provides relevant information about the ISRO free online certification course, covering key aspects such as eligibility, benefits, curriculum, registration, and certification details. The content is clear and concise, although it could benefit from more detailed explanations of specific topics.
+
+Clarity: 4
+The article is easy to understand, with a well-structured format that includes a table of contents and a brief introduction. However, some sentences are quite long and could be broken up for better readability.
+
+Relevance: 4
+The article is highly relevant to anyone interested in learning about the ISRO certification course, particularly students and professionals looking to acquire new skills.
+
+Overall, the article provides a good overview of the course, but it could benefit from more depth and detail in certain areas.
+2025-02-18 20:23:51 | INFO     | helper:process_single_article:206 - Article processed: ISRO Free Online Certification Course 2025: Python, Machine Learning ...
+2025-02-18 20:23:53 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:23:59 | WARNING  | helper:evaluate_article_quality:99 - Invalid rating received: I would rate this article a 3.
+
+The rating is based on the following analysis:
+
+- Accuracy: 4 (The article appears to be accurate in stating that ISRO is launching a free online Python course, but some details are missing or not explicitly stated.)
+- Clarity: 2.5 (The writing style is unclear and lacks clarity at times. The text jumps abruptly between different ideas without proper transitions.)
+- Relevance: 3 (The article mentions relevant information about ISRO's initiative, but it could be more informative and detailed for a reader looking to learn more about the program.)
+2025-02-18 20:23:59 | INFO     | helper:process_single_article:206 - Article processed: ISRO Free Python Course 2025: Master AI, ML & Geospatial Data for Space ...
+2025-02-18 20:24:00 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:24:00 | ERROR    | helper:evaluate_article_quality:103 - Model query error: 'charmap' codec can't encode characters in position 1168-1169: character maps to <undefined>
+2025-02-18 20:24:00 | INFO     | helper:process_single_article:206 - Article processed: What Are Python Concepts? - Coursera
+2025-02-18 20:24:00 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:24:00 | ERROR    | helper:process_single_article:218 - Article processing error: 'NoneType' object is not subscriptable
+2025-02-18 20:24:00 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:24:00 | ERROR    | helper:process_single_article:218 - Article processing error: 'NoneType' object is not subscriptable
+2025-02-18 20:24:04 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:24:06 | WARNING  | helper:evaluate_article_quality:99 - Invalid rating received: I would rate this article a 4.
+2025-02-18 20:24:06 | INFO     | helper:process_single_article:206 - Article processed: ISRO Launches Free Python Course for Working Professionals and Students
+2025-02-18 20:24:07 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:24:13 | WARNING  | helper:evaluate_article_quality:99 - Invalid rating received: I would rate this article a 4.
+
+Accuracy: 4 (The article provides a general overview of the benefits of learning Java and Python, but lacks specific details and examples to support its claims.)
+
+Clarity: 4 (The writing is clear and concise, making it easy to understand the main points being conveyed.)
+
+Relevance: 4 (The article effectively communicates the value of learning both Java and Python to job seekers, particularly in terms of versatility and employability.)
+
+Overall, the article provides a solid foundation for understanding the benefits of learning Java and Python, but could benefit from more specific examples and details to make it even more effective.
+2025-02-18 20:24:13 | INFO     | helper:process_single_article:206 - Article processed: Java Programmer + Python Developer - cpe.gmu.edu
+2025-02-18 20:24:13 | INFO     | helper:fetch_news_data:227 - Search completed with 5 results
+2025-02-18 20:24:13 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:24:13 | INFO     | helper:generate_response:31 - User input added to conversation log
+2025-02-18 20:24:35 | INFO     | helper:generate_response:55 - AI response generated

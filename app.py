@@ -90,7 +90,7 @@ with st.sidebar:
 
 # Initialize conversation history
 if "messages" not in st.session_state:
-    st.session_state.messages: List[Dict[str, str]] = []
+    st.session_state.messages: List[Dict[str, str]] = [] # type: ignore
 
 # Validate message format
 if not isinstance(st.session_state.messages, list) or not all(isinstance(msg, dict) for msg in st.session_state.messages):
@@ -153,19 +153,19 @@ if query := st.chat_input("What would you like to know?"):
                             has_half: str = "⭐½" if (rating_val - full_count) >= 0.5 else ""
                             return "⭐" * full_count + has_half
                         except ValueError:
-                            return "N/A"
+                            return "⭐"
 
                     # Construct results table
                     results_table = "| # | Title | Rating | Summary |\n|---|------|--------|---------|\n"
 
                     for item in markdown_results:
                         clean_title = sanitize_title(item['title'])
-                        raw_rating = str(item.get('rating', 'N/A')).strip()
+                        raw_rating = str(item.get('rating', '⭐')).strip()
 
                         if raw_rating.replace('.', '', 1).isdigit():
                             rating_display = format_rating(raw_rating)
                         else:
-                            rating_display = "N/A"
+                            rating_display = "⭐"
 
                         if item.get('link', '').startswith("http"):
                             title_display = f"[{clean_title}]({item['link']})"
@@ -176,7 +176,7 @@ if query := st.chat_input("What would you like to know?"):
                         truncated_summary = summary_text[:100] + "..." if len(summary_text) > 100 else summary_text
 
                         results_table += f"| {item['num']} | {title_display} | {rating_display} | {truncated_summary} |\n"
-
+            
             # Generate AI response
             assistant = AIAssistant()
             assistant.history = st.session_state.messages.copy()
