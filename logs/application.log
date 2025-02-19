@@ -47,3 +47,60 @@ Overall, the article provides a solid foundation for understanding the benefits 
 2025-02-18 20:24:13 | INFO     | helper:__init__:24 - AI Assistant initialized
 2025-02-18 20:24:13 | INFO     | helper:generate_response:31 - User input added to conversation log
 2025-02-18 20:24:35 | INFO     | helper:generate_response:55 - AI response generated
+2025-02-18 20:24:46 | INFO     | helper:text_to_speech:246 - Text successfully converted to audio
+2025-02-18 20:25:04 | INFO     | helper:fetch_news_data:169 - Initiating news search for: python crash course
+2025-02-18 20:25:05 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:25:05 | ERROR    | helper:process_single_article:218 - Article processing error: 'NoneType' object is not subscriptable
+2025-02-18 20:25:06 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:25:13 | WARNING  | helper:evaluate_article_quality:99 - Invalid rating received: I can help you with that, but I don't see an article to analyze. You provided a snippet from an article about learning Python. If you provide the full text of the article, I'd be happy to assist you with analyzing it and providing a rating.
+
+However, based on the snippet you provided, here's my analysis:
+
+Accuracy: 4 (The article provides some useful general information about Python, but it lacks specific details and concrete examples.)
+
+Clarity: 3.5 (The writing is clear and concise, but some sentences are a bit simplistic or lack specificity.)
+
+Relevance: 4 (The article addresses the main question of "how to quickly learn Python" and provides some relevant steps for getting started.)
+
+Rating: 3.8
+2025-02-18 20:25:13 | INFO     | helper:process_single_article:206 - Article processed: How to quickly learn Python? - Mad Penguin
+2025-02-18 20:25:15 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:25:16 | INFO     | helper:evaluate_article_quality:96 - Article rated: 3
+2025-02-18 20:25:16 | INFO     | helper:process_single_article:206 - Article processed: 13 Free AI Courses To Learn High-Paying Skills In 2025 - Forbes
+2025-02-18 20:25:17 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:25:17 | ERROR    | helper:evaluate_article_quality:103 - Model query error: 'charmap' codec can't encode characters in position 1168-1169: character maps to <undefined>
+2025-02-18 20:25:17 | INFO     | helper:process_single_article:206 - Article processed: What Are Python Concepts? - Coursera
+2025-02-18 20:25:18 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:25:23 | WARNING  | helper:evaluate_article_quality:99 - Invalid rating received: I can help you with rating this article based on the given criteria. 
+
+Here's my analysis:
+
+- Accuracy: 4/5
+The article seems to provide accurate information about Flask and its usage for building a web framework from scratch in Python.
+
+- Clarity: 4.5/5
+The content is clear and easy to understand, with proper explanations of key concepts such as MVC pattern, templates, and debugging.
+
+- Relevance: 5/5
+The article provides relevant information for readers who want to build a web framework using Flask and Python.
+
+Overall rating: 4.25
+2025-02-18 20:25:23 | INFO     | helper:process_single_article:206 - Article processed: Flask Crash Course: Building a Web Framework from Scratch in Python
+2025-02-18 20:25:23 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:25:31 | WARNING  | helper:evaluate_article_quality:99 - Invalid rating received: I would rate this article a 3 out of 5.
+
+Accuracy, clarity, and relevance: The article appears to be a library homepage for New England Institute of Technology, listing available services and a call for art submissions. However, the content seems disjointed, with a mix of unrelated topics (game development book) and announcements about computer lab hours.
+
+Rating breakdown:
+
+- Accuracy: 3/5 (the information provided seems mostly accurate, but it's not clear how often this page is updated or if there are any changes to the services listed)
+- Clarity: 2.5/5 (the formatting of the text is unclear and hard to read, with long blocks of unformatted content)
+- Relevance: 3.5/5 (the relevance to a library homepage seems mostly accurate, but the inclusion of unrelated topics like game development books may be unnecessary)
+2025-02-18 20:25:31 | INFO     | helper:process_single_article:206 - Article processed: NEIT Library Homepage: New England Institute of Technology Library ...
+2025-02-18 20:25:31 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:25:31 | ERROR    | helper:process_single_article:218 - Article processing error: 'NoneType' object is not subscriptable
+2025-02-18 20:25:31 | INFO     | helper:fetch_news_data:227 - Search completed with 5 results
+2025-02-18 20:25:31 | INFO     | helper:__init__:24 - AI Assistant initialized
+2025-02-18 20:25:31 | INFO     | helper:generate_response:31 - User input added to conversation log
+2025-02-18 20:25:46 | INFO     | helper:generate_response:55 - AI response generated
+2025-02-18 20:25:48 | INFO     | helper:text_to_speech:246 - Text successfully converted to audio

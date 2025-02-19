@@ -1,0 +1,98 @@
+user_prompt,url_to_check,func_rating,custom_rating
+"I have just been on an international flight, can I come back home to hold my 1-month-old newborn?",https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/expert-answers/air-travel-with-infant/faq-20058539,2,3
+How does exercise affect mental health?,https://www.psychologytoday.com/us/basics/mental-health/mental-health-treatment,2,3
+What are the benefits of drinking green tea?,https://www.healthline.com/nutrition/top-10-evidence-based-health-benefits-of-green-tea,3,4
+What are the symptoms of COVID-19?,https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html,2,3
+How can I improve my sleep quality?,https://www.sleepfoundation.org/how-sleep-works/how-to-sleep-better,2,3
+What is the impact of social media on mental health?,https://www.psychologytoday.com/us/blog/words-matter/202010/the-impact-of-social-media-on-mental-health,2,3
+How do I prevent heart disease?,https://www.heart.org/en/healthy-living/healthy-lifestyle,2,3
+What are the side effects of too much caffeine?,https://www.webmd.com/diet/caffeine-and-health,2,3
+How does meditation help with stress?,https://www.headspace.com/meditation/stress,3,4
+What is the importance of hydration?,https://www.medicalnewstoday.com/articles/290814,2,3
+What should I eat for a healthy breakfast?,https://www.health.com/healthy-breakfast-ideas-4798168,2,3
+What are some effective time management techniques?,https://www.mindtools.com/pages/main/newMN_HTE.htm,2,3
+What are the causes of back pain?,https://www.mayoclinic.org/diseases-conditions/back-pain/symptoms-causes/syc-20369860,2,3
+How can I boost my immune system?,https://www.healthline.com/nutrition/10-evidence-based-ways-to-improve-your-immune-system,2,3
+What are the benefits of yoga?,https://www.yogajournal.com/lifestyle/health/benefits-of-yoga,2,3
+How does alcohol affect the body?,https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/what-are-the-effects-alcohol,2,3
+What are the different types of depression?,https://www.psychologytoday.com/us/basics/depression/types-of-depression,2,3
+How can I reduce my risk of diabetes?,https://www.cdc.gov/diabetes/prevention/index.html,2,3
+What is the role of fiber in digestion?,https://www.webmd.com/diet/obesity/ss/slideshow-fiber-overview,2,3
+How do I manage anxiety?,https://www.nimh.nih.gov/health/topics/anxiety-disorders,2,3
+What are the symptoms of depression?,https://www.mentalhealth.org.uk/a-to-z/d/depression,2,3
+How do I know if I’m dehydrated?,https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/dehydration/faq-20058426,2,3
+What is the importance of exercise?,https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm,2,3
+What is a balanced diet?,https://www.nhs.uk/live-well/eat-well/the-eatwell-guide/,2,3
+What is a healthy body weight?,https://www.cdc.gov/healthyweight/assessing/bmi/index.html,2,3
+What is a healthy sleep routine?,https://www.sleepfoundation.org/sleep-hygiene/healthy-sleep-tips,2,3
+How do I improve my memory?,https://www.psychologytoday.com/us/basics/memory/10-tips-for-improving-your-memory,2,3
+What are the benefits of a plant-based diet?,https://www.healthline.com/nutrition/top-5-health-benefits-of-plant-based-diet,2,3
+What are the symptoms of vitamin D deficiency?,https://www.webmd.com/diet/obesity/ss/slideshow-vitamind-overview,2,3
+How does stress affect the body?,https://www.psychologytoday.com/us/basics/stress/how-stress-affects-the-body,2,3
+What are some healthy ways to cope with stress?,https://www.mentalhealth.org.uk/publications/how-to-cope-with-stress,2,3
+What are some common causes of headaches?,https://www.mayoclinic.org/diseases-conditions/headache/symptoms-causes/syc-20351479,2,3
+What is intermittent fasting?,https://www.healthline.com/nutrition/what-is-intermittent-fasting,2,3
+What are the best exercises for weight loss?,https://www.health.com/fitness-workouts/lose-weight-fast-workouts-4798280,2,3
+How does smoking affect lung health?,https://www.cdc.gov/tobacco/basic_information/health_effects/index.htm,2,3
+What is the difference between LDL and HDL cholesterol?,https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/understanding-fats,2,3
+What is a healthy heart rate?,https://www.cdc.gov/nchs/fastats/heart-disease.htm,1,2
+How do I reduce my sugar intake?,https://www.healthline.com/nutrition/ways-to-reduce-sugar-intake,2,3
+What is a keto diet?,https://www.healthline.com/nutrition/ketogenic-diet-101,2,3
+What are the risks of high blood pressure?,https://www.cdc.gov/nchs/fastats/high-blood-pressure.htm,2,3
+How can I improve my digestion?,https://www.webmd.com/digestive-disorders/digestive-health,2,3
+What is the role of antioxidants in the body?,https://www.healthline.com/nutrition/antioxidants-explained,2,3
+How do I control my blood sugar?,https://www.cdc.gov/diabetes/managing/index.html,2,3
+What is the best way to stay motivated?,https://www.psychologytoday.com/us/blog/pieces-mind/201808/10-ways-to-stay-motivated,2,3
+How can I stay productive working from home?,https://www.cnn.com/2020/03/23/success/working-from-home-tips/index.html,2,3
+What are the signs of burnout?,https://www.psychologytoday.com/us/basics/burnout,2,3
+How do I manage my time effectively?,https://www.mindtools.com/pages/main/newMN_HTE.htm,2,3
+What is mindfulness?,https://www.mindful.org/what-is-mindfulness/,2,3
+How do I improve my self-esteem?,https://www.psychologytoday.com/us/blog/self-esteem/201903/10-ways-to-boost-your-self-esteem,2,3
+How do I handle failure?,https://www.psychologytoday.com/us/articles/200310/learning-to-learn-from-failure,2,3
+What are the benefits of journaling?,https://www.psychologytoday.com/us/blog/saving-normal/201507/benefits-journaling,2,3
+What is the difference between introverts and extroverts?,https://www.psychologytoday.com/us/articles/201207/the-science-of-introverts-vs-extroverts,2,3
+How can I develop a growth mindset?,https://www.mindsetworks.com/science/,2,3
+What are the benefits of gratitude?,https://www.psychologytoday.com/us/articles/201307/what-is-gratitude,2,3
+What is self-care?,https://www.psychologytoday.com/us/blog/self-care-saturday/201907/what-is-self-care,2,3
+How do I stay positive?,https://www.psychologytoday.com/us/articles/201208/positive-thinking,2,3
+How do I know if I am an empath?,https://www.psychologytoday.com/us/articles/201504/11-signs-youre-empath,2,3
+What is social anxiety?,https://www.psychologytoday.com/us/basics/anxiety/social-anxiety-disorder,2,3
+How do I overcome procrastination?,https://www.psychologytoday.com/us/articles/201608/how-to-stop-procrastinating,2,3
+What is the best way to study?,https://www.apa.org/education/k12/study-tips,2,3
+How do I set goals effectively?,https://www.psychologytoday.com/us/articles/200701/goal-setting,2,3
+What is self-discipline?,https://www.psychologytoday.com/us/articles/200906/self-discipline,2,3
+What is the importance of forgiveness?,https://www.psychologytoday.com/us/articles/201604/the-power-forgiveness,2,3
+How do I deal with anxiety attacks?,https://www.psychologytoday.com/us/articles/201509/how-to-deal-with-anxiety-attacks,2,3
+How do I improve my communication skills?,https://www.psychologytoday.com/us/articles/201307/7-ways-to-improve-communication,2,3
+What is assertiveness?,https://www.psychologytoday.com/us/articles/201801/what-is-assertiveness,2,3
+What is emotional intelligence?,https://www.psychologytoday.com/us/basics/emotional-intelligence,2,3
+How do I build resilience?,https://www.psychologytoday.com/us/articles/201307/7-ways-to-build-resilience,2,3
+How do I overcome perfectionism?,https://www.psychologytoday.com/us/articles/201609/how-to-overcome-perfectionism,2,3
+What is the importance of sleep?,https://www.psychologytoday.com/us/articles/201703/why-sleep-is-important,2,3
+What are some healthy habits?,https://www.psychologytoday.com/us/articles/201707/5-simple-healthy-habits,2,3
+What is the difference between introverts and extroverts?,https://www.psychologytoday.com/us/articles/201207/the-science-of-introverts-vs-extroverts,2,3
+How can I build self-confidence?,https://www.psychologytoday.com/us/articles/200701/building-self-confidence,2,3
+What are the benefits of volunteering?,https://www.psychologytoday.com/us/articles/201304/the-benefits-volunteering,2,3
+What is the importance of good posture?,https://www.healthline.com/health/fitness-exercise/posture-tips,2,3
+How do I get better at public speaking?,https://www.psychologytoday.com/us/articles/201504/how-to-get-better-at-public-speaking,2,3
+What is the importance of self-reflection?,https://www.psychologytoday.com/us/articles/201809/self-reflection-the-power-thinking-about-yourself,2,3
+How can I find a good therapist?,https://www.psychologytoday.com/us/therapists,2,3
+How can I manage my finances?,https://www.investopedia.com/articles/personal-finance/092916/10-financial-tips-college-graduates.asp,2,3
+What is the difference between introverts and extroverts?,https://www.psychologytoday.com/us/articles/201207/the-science-of-introverts-vs-extroverts,2,3
+How do I deal with rejection?,https://www.psychologytoday.com/us/articles/201701/5-ways-to-deal-with-rejection,2,3
+What is the importance of mindfulness?,https://www.psychologytoday.com/us/articles/201309/mindfulness-in-psychotherapy,2,3
+What are the symptoms of ADHD?,https://www.cdc.gov/ncbddd/adhd/guidelines.html,2,3
+How do I deal with difficult people?,https://www.psychologytoday.com/us/articles/201507/how-to-deal-with-difficult-people,2,3
+What is the importance of empathy?,https://www.psychologytoday.com/us/articles/201707/the-importance-of-empathy,2,3
+How do I find purpose in life?,https://www.psychologytoday.com/us/articles/201506/how-to-find-your-life-purpose,2,3
+How do I set boundaries?,https://www.psychologytoday.com/us/articles/201707/how-to-set-healthy-boundaries,2,3
+How do I improve my work-life balance?,https://www.psychologytoday.com/us/articles/201602/8-tips-for-improving-work-life-balance,2,3
+What is emotional abuse?,https://www.psychologytoday.com/us/articles/201705/what-is-emotional-abuse,2,3
+How do I build a positive mindset?,https://www.psychologytoday.com/us/articles/201710/building-a-positive-mindset,2,3
+What is the difference between sympathy and empathy?,https://www.psychologytoday.com/us/articles/201510/what-sympathy-vs-empathy,2,3
+How do I stop negative thinking?,https://www.psychologytoday.com/us/articles/201611/how-to-stop-negative-thinking,2,3
+What are the benefits of a morning routine?,https://www.psychologytoday.com/us/articles/201701/why-a-morning-routine-can-make-you-happier,2,3
+What is self-sabotage?,https://www.psychologytoday.com/us/articles/201803/how-stop-self-sabotage,2,3
+How can I cope with change?,https://www.psychologytoday.com/us/articles/201802/how-to-cope-with-change,2,3
+What is the importance of goal-setting?,https://www.psychologytoday.com/us/articles/201301/the-importance-of-setting-goals,2,3
+How can I deal with negative emotions?,https://www.psychologytoday.com/us/articles/201304/how-to-manage-negative-emotions,2,3
