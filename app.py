@@ -3,9 +3,7 @@ import json
 import asyncio
 from datetime import datetime
 from typing import Dict, List, Any
-
 import streamlit as st
-
 from helper import AIAssistant, get_current_year, text_to_speech, fetch_news_data
 
 # ============================ UI CONFIGURATION ============================

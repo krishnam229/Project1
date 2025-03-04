@@ -27,7 +27,6 @@ import concurrent.futures
 from logger.app_logger import application_logger
 
 # ============================ AI ASSISTANT CLASS ============================
-
 class AIAssistant:
     """
     An AI assistant class that interfaces with a local Llama model via Ollama.
