@@ -1,14 +1,29 @@
 import asyncio
 import json
 import os
+import pickle
 import subprocess
-import urllib
+import time
+import urllib.parse
 from datetime import datetime
 from typing import Dict, List, Any, Optional
+import httpx
+import keras
+import numpy as np
 import requests
 import re
 from bs4 import BeautifulSoup
 from gtts import gTTS
+from huggingface_hub import hf_hub_download
+from keras.utils import pad_sequences
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import concurrent.futures
 from logger.app_logger import application_logger
 
 # ============================ AI ASSISTANT CLASS ============================
@@ -103,6 +118,43 @@ class AIAssistant:
                 application_logger.log_error(f"Model query error: {e}")
                 return "Error"
 
+    async def rate_article_credibility(self, article_title: str, article_content: str) -> str:
+        """
+        Rate the credibility of an article using a locally created model.
+
+        Args:
+            article_title (str): The title of the article.
+            article_content (str): The full content of the article.
+
+        Returns:
+            str: A credibility rating based on the model's prediction.
+        """
+        try:
+            # Load the model and tokenizer
+            model_path: str = hf_hub_download(repo_id="krishnam229/Deliverable3", filename="model.keras")
+            tokenizer_path: str = hf_hub_download(repo_id="krishnam229/Deliverable3", filename="tokenizer.pkl")
+
+            new_model = keras.models.load_model(model_path)
+            with open(tokenizer_path, "rb") as f:
+                tokenizer = pickle.load(f)
+
+            # Preprocess the input data
+            max_length: int = new_model.input_shape[0][1]
+            X_text: List[List[int]] = tokenizer.texts_to_sequences([article_title])
+            X_text = pad_sequences(X_text, maxlen=max_length, padding='post')
+            X_func_rating: np.ndarray = np.array([5]).reshape(-1, 1)  # Dummy rating for example
+
+            # Make predictions
+            predictions: np.ndarray = new_model.predict({"text_input": X_text, "func_rating_input": X_func_rating})
+            prediction: int = np.argmax(predictions, axis=1)[0]
+
+            application_logger.log_info(f"Article credibility rated: {prediction}", level="INFO")
+            return str(prediction)
+
+        except Exception as e:
+            application_logger.log_error(f"Error rating article credibility: {e}")
+            return "Error"
+
 # ============================ CONTENT EXTRACTION ============================
 
 def extract_article_content(article_url: str) -> str:
@@ -120,40 +172,41 @@ def extract_article_content(article_url: str) -> str:
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
             "Referer": "https://www.google.com"  # Simulate referring from a search engine
         }
-        page_response = requests.get(article_url, headers=browser_headers, timeout=5)
+        retries: int = 3
+        for attempt in range(retries):
+            try:
+                response: requests.Response = requests.get(article_url, headers=browser_headers, timeout=10)
+                if response.status_code == 403:
+                    application_logger.log_error(f"Access forbidden to article: {response.status_code}")
+                    return "Access forbidden to article."
+                if response.status_code != 200:
+                    application_logger.log_error(f"Failed to fetch article: {response.status_code}")
+                    return "Failed to fetch article."
 
-        if page_response.status_code == 403:
-            print(f"Access forbidden (403) for {article_url}")
-            return None
-        elif page_response.status_code != 200:
-            print(f"Failed to fetch article from {article_url}. Status code: {page_response.status_code}")
-            return None
+                soup: BeautifulSoup = BeautifulSoup(response.text, "html.parser")
+                paragraphs: List[BeautifulSoup] = soup.find_all("p")
 
-        # page_content = BeautifulSoup(page_response.text, "html.parser")
-        # text_blocks = page_content.find_all("p")
+                # Extract and return cleaned text
+                article_content: str = "\n".join([p.text.strip() for p in paragraphs if p.text.strip()])
+                application_logger.log_info(f"Article content extracted from {article_url}", level="INFO")
+                return article_content
 
-        # # Combine and clean text content
-        # article_text = "\n".join([block.text.strip() for block in text_blocks if block.text.strip()])
-        # application_logger.log_info(f"Content extracted from {article_url}", level="INFO")
-        # return article_text
-    
-        page_content = page_response.text
-        soup = BeautifulSoup(page_content, 'html.parser')
-        paras = soup.find_all("p")
-        # Extract the article content (assumes paragraphs are in <p> tags)
-        article_text = "\n".join([p.text.strip() for p in paras if p.text.strip()])
-        return article_text
+            except requests.exceptions.Timeout:
+                application_logger.log_warning(f"Timeout occurred while fetching article: {article_url}, attempt {attempt + 1}")
+                if attempt < retries - 1:
+                    time.sleep(2)  # Wait before retrying
+                    continue
+                return "Error: Timeout occurred while fetching article."
 
     except Exception as e:
-        application_logger.log_error(f"Content extraction error: {e}")
-        return f"Content extraction error: {e}"
+        application_logger.log_error(f"Error extracting article content: {e}")
+        return f"Error extracting article content: {e}"
 
-
+        return "Failed to fetch article after multiple attempts."
 
 # ============================ NEWS SEARCH ============================
 
-async def fetch_news_data(query: str, count: int = 5, region: str = "us-en", time_filter: str = "w") -> \
-Dict[str, Any]:
+async def fetch_news_data(query: str, count: int = 5, region: str = "us-en", time_filter: str = "w") -> Dict[str, Any]:
     """
     Search and analyze news articles using DuckDuckGo with parallel processing.
 
@@ -168,67 +221,87 @@ Dict[str, Any]:
     """
     application_logger.log_info(f"Initiating news search for: {query}", level="INFO")
 
-    search_url = f"https://duckduckgo.com/html/?q={query.replace(' ', '+')}&kl={region}&df={time_filter}&ia=news"
-    browser_headers = {"User-Agent": "Mozilla/5.0"}
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")  # Run without UI
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-notifications")  # Disable push notifications
+    chrome_options.add_argument("--disable-popup-blocking") # Prevent popups interfering
 
-    search_response = requests.get(search_url, headers=browser_headers)
-    if search_response.status_code != 200:
-        application_logger.log_error(f"Search request failed: {search_response.status_code}")
-        return {"status": "error", "message": "Search request failed"}
+    
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36")
+    #chrome_options.add_argument("--user-data-dir=C:\\temp\\selenium_profile")
 
-    page_content = BeautifulSoup(search_response.text, "html.parser")
-    article_elements = page_content.find_all("div", class_="result__body")
+    driver: webdriver.Chrome = webdriver.Chrome(options=chrome_options)
 
-    async def process_single_article(element, index: int) -> Optional[Dict[str, Any]]:
-        """Process and analyze a single news article."""
+    duckduckgo_news_url: str = f"https://duckduckgo.com/html/?q={query.replace(' ', '+')}&kl={region}&df={time_filter}&ia=news"
+    driver.get(duckduckgo_news_url)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "result__body")))
+    soup: BeautifulSoup = BeautifulSoup(driver.page_source, "html.parser")
+    search_results: List[BeautifulSoup] = soup.find_all("div", class_="result__body")
+
+    async def process_article(result: BeautifulSoup, index: int) -> Optional[Dict[str, Any]]:
+        """
+        Process a single search result and extract relevant information.
+
+        Args:
+            result (BeautifulSoup): The search result to process.
+            index (int): The index of the search result.
+
+        Returns:
+            Optional[Dict[str, Any]]: A dictionary containing the extracted information, or None if an error occurs.
+        """
         try:
-            title_element = element.find("a", class_="result__a")
-            if not title_element:  # Check if None
-                application_logger.log_warning(f"Title not found for result {index}")
-                return None  # Skip this article
+            title_tag: Optional[BeautifulSoup] = result.find("a", class_="result__a")
+            if not title_tag:
+                application_logger.log_warning(f"Title tag not found for result index {index}")
+                return None
 
-            headline = title_element.text.strip()
-            raw_url = title_element.get("href", "")
+            title: str = title_tag.text.strip()
+            raw_link: str = title_tag["href"]
 
-            if not raw_url:  # Check if href exists
-                application_logger.log_warning(f"URL missing for article: {headline}")
-                return None  # Skip this article
+            match: Optional[re.Match] = re.search(r"uddg=(https?%3A%2F%2F[^&]+)", raw_link)
+            link: str = urllib.parse.unquote(match.group(1)) if match else "Unknown Link"
 
-            url_match = re.search(r"uddg=(https?%3A%2F%2F[^&]+)", raw_url)
-            article_url = urllib.parse.unquote(url_match.group(1)) if url_match else "Unknown URL"
+            snippet_tag: Optional[BeautifulSoup] = result.find("a", class_="result__snippet")
+            summary: str = snippet_tag.text.strip() if snippet_tag else "No summary available."
 
-            summary_element = element.find("a", class_="result__snippet")
-            article_summary = summary_element.text.strip() if summary_element else "Summary unavailable."
+            article_content: str = extract_article_content(link)
 
-            article_body = extract_article_content(article_url)
-            assistant = AIAssistant()
-            quality_score = await assistant.evaluate_article_quality(headline, article_body)
-            application_logger.log_info(f"Article processed: {headline}", level="INFO")
+            bot: AIAssistant = AIAssistant()
+
+            # Rate the credibility of the article
+            rating: str = await bot.rate_article_credibility(title, article_content)
+
+            application_logger.log_info(f"Processed article: {title}", level="INFO")
 
             return {
                 "num": index + 1,
-                "link": article_url,
-                "title": headline,
-                "summary": article_summary,
-                "body": article_body,
-                "rating": quality_score
+                "link": link,
+                "title": title,
+                "summary": summary,
+                "body": article_content,
+                "rating": rating
             }
-
         except Exception as e:
-            application_logger.log_error(f"Article processing error: {e}")
+            application_logger.log_error(f"Error processing article: {e}")
             return None
 
-    processing_tasks = [process_single_article(element, idx) for idx, element in enumerate(article_elements[:count])]
-    processed_articles = await asyncio.gather(*processing_tasks)
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        tasks: List[concurrent.futures.Future] = [executor.submit(process_article, result, index) for index, result in enumerate(search_results[:count])]
+        extracted_results: List[Optional[Dict[str, Any]]] = [task.result() for task in concurrent.futures.as_completed(tasks)]
 
-    valid_articles = [article for article in processed_articles if article is not None]
+    driver.quit()
 
-    if valid_articles:
-        application_logger.log_info(f"Search completed with {len(valid_articles)} results", level="INFO")
-        return {"status": "success", "results": valid_articles}
+    extracted_results = [res for res in extracted_results if res is not None]
+
+    if extracted_results:
+        application_logger.log_info(f"News search completed successfully with {len(extracted_results)} results", level="INFO")
+        return {"status": "success", "results": extracted_results}
     else:
-        application_logger.log_error("No valid articles found")
-        return {"status": "error", "message": "No valid articles found"}
+        application_logger.log_error("No valid news search results found")
+        return {"status": "error", "message": "No valid news search results found"}
 
 
 # ============================ UTILITY FUNCTIONS ============================
